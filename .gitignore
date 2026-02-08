@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+
+# Environment files (keep .env.example)
+.env
+.env.local
+.env*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# PWA generated files
+public/sw.js
+public/workbox-*.js
+
+# TypeScript
+*.tsbuildinfo
+
+# Backup files (optional - remove this line if you want to push backups)
+backup/
+
+# Large image files - upload these separately via FTP to Hostinger
+# These are too large for GitHub (>1GB total, some files >100MB)
+public/images/

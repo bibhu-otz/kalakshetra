@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "title": "Kalakshetra Odisha - Preserving Cultural Heritage",
+    "description": "Kalakshetra Odisha is dedicated to preserving and promoting the rich cultural heritage of Odisha through traditional arts, folk performances, and community engagement."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "leadership": "Leadership",
+    "programs": "Programs",
+    "events": "Events",
+    "awards": "Awards",
+    "gallery": "Gallery",
+    "press": "Press",
+    "contact": "Contact",
+    "donate": "Donate"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "getInTouch": "Get in Touch",
+    "subscribe": "Subscribe",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "close": "Close",
+    "menu": "Menu",
+    "language": "Language",
+    "english": "English",
+    "odia": "ଓଡ଼ିଆ"
+  },
+  "home": {
+    "hero": {
+      "title": "Preserving Odisha's Cultural Heritage",
+      "subtitle": "Celebrating traditions, empowering communities, and nurturing art forms that define our identity.",
+      "cta": "Explore Our Work",
+      "secondaryCta": "Support Our Mission"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Kalakshetra Odisha is committed to preserving, promoting, and nurturing the rich cultural heritage of Odisha through documentation, education, and community engagement.",
+      "values": {
+        "preservation": {
+          "title": "Cultural Preservation",
+          "description": "Documenting and safeguarding traditional art forms for future generations"
+        },
+        "education": {
+          "title": "Arts Education",
+          "description": "Training young artists in classical and folk traditions of Odisha"
+        },
+        "community": {
+          "title": "Community Empowerment",
+          "description": "Supporting rural artisans and cultural practitioners"
+        },
+        "research": {
+          "title": "Research & Documentation",
+          "description": "Academic research on Odisha's diverse cultural expressions"
+        }
+      }
+    },
+    "programs": {
+      "title": "Our Programs",
+      "subtitle": "Initiatives that celebrate and preserve Odisha's cultural legacy",
+      "viewAll": "View All Programs"
+    },
+    "events": {
+      "title": "Upcoming Events",
+      "subtitle": "Join us in celebrating Odisha's rich cultural heritage",
+      "viewAll": "View All Events"
+    },
+    "gallery": {
+      "title": "From Our Gallery",
+      "subtitle": "Capturing moments of cultural celebration",
+      "viewAll": "View Full Gallery"
+    },
+    "leadership": {
+      "badge": "Our Team",
+      "title": "Leadership",
+      "subtitle": "Meet the dedicated individuals guiding our mission of cultural preservation",
+      "viewAll": "View All Members"
+    },
+    "press": {
+      "badge": "In The News",
+      "title": "Press & Media",
+      "subtitle": "Coverage of our cultural initiatives and community impact",
+      "readMore": "Read Article",
+      "viewAll": "View All Press"
+    },
+    "cta": {
+      "title": "Join Us in Preserving Our Heritage",
+      "description": "Your support helps us continue our mission of cultural preservation and community empowerment.",
+      "donate": "Make a Donation",
+      "volunteer": "Become a Volunteer"
+    },
+    "stats": {
+      "villages": "Villages Reached",
+      "artists": "Artists Supported",
+      "events": "Events Organized",
+      "years": "Years of Service"
+    }
+  },
+  "about": {
+    "title": "About Kalakshetra Odisha",
+    "subtitle": "A journey of cultural preservation and community empowerment",
+    "history": {
+      "title": "Our Story",
+      "description": "Kalakshetra Odisha was founded with a vision to preserve and promote the rich cultural heritage of Odisha. Over the years, we have grown into a movement that celebrates traditional arts while empowering communities."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be a leading institution for cultural preservation, making Odisha's heritage accessible to all while ensuring its sustainability for future generations."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To document, preserve, and promote Odisha's diverse cultural expressions through education, research, community engagement, and artistic programs."
+    },
+    "values": {
+      "title": "Our Values",
+      "authenticity": "Authenticity",
+      "inclusivity": "Inclusivity",
+      "sustainability": "Sustainability",
+      "excellence": "Excellence"
+    }
+  },
+  "leadership": {
+    "title": "Our Leadership",
+    "subtitle": "Dedicated individuals guiding our mission",
+    "founder": "Founder",
+    "president": "President",
+    "secretary": "Secretary",
+    "treasurer": "Treasurer",
+    "advisor": "Advisor",
+    "executiveTeam": "Executive Team",
+    "boardMembers": "Board Members",
+    "advisoryBoard": "Advisory Board"
+  },
+  "programs": {
+    "title": "Our Programs",
+    "subtitle": "Diverse initiatives for cultural preservation and promotion",
+    "learnMore": "Learn More",
+    "ctaTitle": "Support Our Cultural Mission",
+    "ctaDescription": "Join us in preserving Odisha's rich heritage. Volunteer your time or contribute to our programs.",
+    "volunteer": "Volunteer With Us",
+    "donate": "Make a Donation",
+    "backToPrograms": "Back to Programs",
+    "aboutProgram": "About This Program",
+    "programHighlights": "Program Highlights",
+    "getInvolved": "Get Involved",
+    "exploreOtherPrograms": "Explore Other Programs",
+    "otherProgramsDescription": "Discover more ways we work to preserve and promote Odisha's cultural heritage.",
+    "viewAllPrograms": "View All Programs",
+    "villageDay": {
+      "title": "Village Day Celebration",
+      "description": "Annual celebration honoring rural traditions and folk arts across Odisha's villages."
+    },
+    "artWorkshops": {
+      "title": "Art Workshops",
+      "description": "Training programs for traditional crafts, painting, and performing arts."
+    },
+    "documentation": {
+      "title": "Cultural Documentation",
+      "description": "Recording and archiving oral traditions, folk songs, and traditional knowledge."
+    },
+    "scholarships": {
+      "title": "Artist Scholarships",
+      "description": "Financial support for young artists pursuing traditional art forms."
+    }
+  },
+  "events": {
+    "title": "Events",
+    "subtitle": "Cultural celebrations and gatherings",
+    "upcoming": "Upcoming Events",
+    "past": "Past Events",
+    "date": "Date",
+    "venue": "Venue",
+    "time": "Time",
+    "register": "Register Now",
+    "details": "Event Details"
+  },
+  "awards": {
+    "title": "Awards & Recognition",
+    "subtitle": "Honoring excellence in cultural preservation",
+    "samman": {
+      "title": "Kalakshetra Samman",
+      "description": "Annual awards recognizing outstanding contributions to Odisha's cultural heritage."
+    },
+    "recipients": "Award Recipients",
+    "year": "Year",
+    "category": "Category"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Visual stories of our cultural journey",
+    "photos": "Photos",
+    "videos": "Videos",
+    "categories": "Categories",
+    "all": "All",
+    "ctaTitle": "Share Your Moments",
+    "ctaDescription": "Have photos from our events? We'd love to feature them in our gallery. Submit your photographs and be part of our cultural story."
+  },
+  "press": {
+    "title": "Press & Media",
+    "subtitle": "News and coverage of our activities",
+    "articles": "News Articles",
+    "releases": "Press Releases",
+    "mediaKit": "Media Kit",
+    "contact": "Media Contact"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "success": "Thank you! Your message has been sent successfully.",
+      "error": "Something went wrong. Please try again."
+    },
+    "info": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Office Hours"
+    },
+    "social": "Connect With Us"
+  },
+  "footer": {
+    "about": "Kalakshetra Odisha is a registered non-profit organization dedicated to preserving and promoting the rich cultural heritage of Odisha.",
+    "quickLinks": "Quick Links",
+    "programs": "Programs",
+    "getInvolved": "Get Involved",
+    "donate": "Donate",
+    "volunteer": "Volunteer",
+    "partner": "Partner With Us",
+    "newsletter": {
+      "title": "Stay Updated",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    },
+    "copyright": "© {year} Kalakshetra Odisha. All rights reserved.",
+    "registrationNo": "Registration No: OR/2020/0055432"
+  }
+}
