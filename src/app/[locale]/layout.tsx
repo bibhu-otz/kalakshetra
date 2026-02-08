@@ -64,32 +64,14 @@ export default async function LocaleLayout({
         <link rel="manifest" href="/manifest.json" />
         
         {/* Favicons */}
-        <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="icon" type="image/jpeg" href="/images/logo.jpeg" />
+        <link rel="shortcut icon" type="image/jpeg" href="/images/logo.jpeg" />
         
         {/* Apple Touch Icons */}
-        <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png" />
-        <link rel="apple-touch-icon" sizes="152x152" href="/icons/icon-152x152.png" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-180x180.png" />
-        <link rel="apple-touch-icon" sizes="167x167" href="/icons/icon-167x167.png" />
-        
-        {/* Splash Screens for iOS */}
-        <link
-          rel="apple-touch-startup-image"
-          href="/icons/apple-splash-2048-2732.png"
-          media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-        />
-        <link
-          rel="apple-touch-startup-image"
-          href="/icons/apple-splash-1170-2532.png"
-          media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
-        />
-        <link
-          rel="apple-touch-startup-image"
-          href="/icons/apple-splash-1125-2436.png"
-          media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
-        />
+        <link rel="apple-touch-icon" href="/images/logo.jpeg" />
+        <link rel="apple-touch-icon" sizes="152x152" href="/images/logo.jpeg" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.jpeg" />
+        <link rel="apple-touch-icon" sizes="167x167" href="/images/logo.jpeg" />
       </head>
       <body className="font-sans antialiased min-h-screen flex flex-col">
         <NextIntlClientProvider messages={messages}>

@@ -53,17 +53,42 @@ if (standaloneServerPath) {
   const staticDest = path.join(standaloneDir, '.next', 'static');
   const publicDest = path.join(standaloneDir, 'public');
 
-  // Ensure static files are in standalone directory
-  if (fs.existsSync(staticSrc) && !fs.existsSync(staticDest)) {
-    console.log('Copying static files...');
-    fs.cpSync(staticSrc, staticDest, { recursive: true });
-  }
+  // Helper function to copy directory (always overwrite)
+  const copyDir = (src, dest, name) => {
+    if (fs.existsSync(src)) {
+      console.log(`Syncing ${name} files from ${src} to ${dest}...`);
+      // Remove existing and copy fresh to ensure sync
+      if (fs.existsSync(dest)) {
+        // Just ensure the directory exists, symlink if possible
+        try {
+          const destStats = fs.lstatSync(dest);
+          if (!destStats.isSymbolicLink()) {
+            // It's a real directory, leave it (user may have uploaded files there)
+            console.log(`${name} directory exists at ${dest}`);
+          }
+        } catch (e) {
+          // Directory doesn't exist, copy it
+          fs.cpSync(src, dest, { recursive: true });
+        }
+      } else {
+        // Try to create symlink first (more efficient), fallback to copy
+        try {
+          fs.symlinkSync(src, dest, 'junction');
+          console.log(`Created symlink for ${name}`);
+        } catch (e) {
+          // Symlink failed, do a copy
+          fs.cpSync(src, dest, { recursive: true });
+          console.log(`Copied ${name} files`);
+        }
+      }
+    }
+  };
 
-  // Ensure public files are in standalone directory  
-  if (fs.existsSync(publicSrc) && !fs.existsSync(publicDest)) {
-    console.log('Copying public files...');
-    fs.cpSync(publicSrc, publicDest, { recursive: true });
-  }
+  // Ensure static files are in standalone directory
+  copyDir(staticSrc, staticDest, 'static');
+  
+  // Ensure public files are in standalone directory
+  copyDir(publicSrc, publicDest, 'public');
 
   // Change to standalone directory and run the server
   process.chdir(standaloneDir);
