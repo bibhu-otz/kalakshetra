@@ -13,8 +13,9 @@ const nextConfig = {
   
   // Image optimization configuration
   images: {
-    // Enable optimization for production
-    unoptimized: false,
+    // Disable optimization for shared hosting (Hostinger)
+    // Sharp package and image optimization API don't work on shared hosting
+    unoptimized: true,
     
     // Remote image domains (for Strapi CMS)
     remotePatterns: [
